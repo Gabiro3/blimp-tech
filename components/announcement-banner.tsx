@@ -18,8 +18,8 @@ interface BannerInfo {
 const bannerInfos: BannerInfo[] = [
   {
     id: "launch",
-    desktopText: "🚀 Blimp is now live — Build your first automation in under 5 minutes",
-    mobileText: "🚀 Blimp is live — Automate in 5 min",
+    desktopText: "🚀 Blimp is now live — Build your first automation in under 1 minute",
+    mobileText: "🚀 Blimp is live — Automate in 1 min",
     linkText: "Get Started",
     linkUrl: "#",
   },

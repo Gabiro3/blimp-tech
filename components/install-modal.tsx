@@ -98,7 +98,7 @@ export default function BlimpModal({ isOpen, onClose }: BlimpModalProps) {
         {/* Footer */}
         <div className="border-t border-white/10 p-4 md:p-6 bg-black sticky bottom-0 flex flex-col md:flex-row items-center justify-between gap-3">
           <a
-            href="https://blimp-dashoard-production.up.railway.app/dashboard"
+            href="https://app.getblimpy.cloud/dashboard"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full md:w-auto inline-flex items-center justify-center gap-2 bg-white text-black font-semibold py-3 px-5 rounded-lg hover:bg-gray-100 transition-colors text-sm"

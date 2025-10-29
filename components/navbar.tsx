@@ -94,7 +94,7 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="https://tally.so/r/n0l7BB" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/gabiro-arnaud" target="_blank" rel="noopener noreferrer">
               <Button
                 className="bg-transparent hover:bg-white/10 border border-white/30 rounded-lg"
                 style={{
@@ -153,7 +153,7 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
         >
           <div className="p-4 flex flex-col gap-4">
             <a
-              href="https://tally.so/r/n0l7BB"
+              href="https://www.linkedin.com/in/gabiro-arnaud"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full"

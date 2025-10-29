@@ -118,8 +118,13 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="bg-black hover:bg-black/80 flex items-center justify-center px-4 sm:px-6 w-full rounded-lg shadow-lg font-mono text-xs sm:text-sm md:text-base font-semibold tracking-wider text-white h-[50px] sm:h-[60px] border border-white/10"
                   >
-                    <svg className="mr-2 h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    <svg
+                      className="mr-2 h-4 w-4"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M20.447 20.452H16.89v-5.569c0-1.328-.025-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.348V9h3.41v1.561h.048c.476-.9 1.637-1.85 3.372-1.85 3.604 0 4.269 2.373 4.269 5.459v6.282zM5.337 7.433a1.986 1.986 0 1 1 0-3.972 1.986 1.986 0 0 1 0 3.972zM6.957 20.452H3.713V9h3.244v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
                     </svg>
                     DM FOUNDER
                   </a>
@@ -177,8 +182,13 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="bg-black hover:bg-black/80 flex items-center justify-center px-4 sm:px-6 w-full sm:w-auto rounded-lg shadow-lg font-mono text-xs sm:text-sm md:text-base font-semibold tracking-wider text-white h-[50px] sm:h-[60px] border border-white/10"
                 >
-                  <svg className="mr-2 h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  <svg
+                    className="mr-2 h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M20.447 20.452H16.89v-5.569c0-1.328-.025-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.348V9h3.41v1.561h.048c.476-.9 1.637-1.85 3.372-1.85 3.604 0 4.269 2.373 4.269 5.459v6.282zM5.337 7.433a1.986 1.986 0 1 1 0-3.972 1.986 1.986 0 0 1 0 3.972zM6.957 20.452H3.713V9h3.244v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
                   </svg>
                   DM FOUNDER
                 </a>
@@ -214,186 +224,13 @@ export default function Home() {
               <CompanyName name="Slack" />
               <CompanyName name="Gmail" />
               <CompanyName name="Notion" />
-              <CompanyName name="Airtable" />
-              <CompanyName name="Stripe" />
-              <CompanyName name="Shopify" />
+              <CompanyName name="Google Drive" />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-8 sm:gap-y-12 gap-x-6 md:gap-x-8 max-w-4xl mx-auto">
               <CompanyName name="Google Sheets" noWrapDesktop={true} />
-              <CompanyName name="HubSpot" />
-              <CompanyName name="Salesforce" />
-              <CompanyName name="Zapier" />
-            </div>
-          </div>
-        </section>
-
-        <section className="py-16 md:py-24 bg-black">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center mb-12">
-            <h2
-              className="mb-4 font-semibold"
-              style={{
-                backgroundImage: "linear-gradient(rgb(245, 245, 245), rgb(245, 245, 245) 29%, rgb(153, 153, 153))",
-                color: "transparent",
-                fontFamily: "GeistSans, sans-serif",
-                fontSize: "clamp(32px, 6vw, 52px)",
-                fontWeight: 600,
-                letterSpacing: "clamp(-1.5px, -0.04em, -2.08px)",
-                lineHeight: "1.15",
-                textAlign: "center",
-                WebkitBackgroundClip: "text",
-                backgroundClip: "text",
-              }}
-            >
-              Trusted by Teams Worldwide
-            </h2>
-            <p
-              className="max-w-3xl mx-auto text-white/80"
-              style={{
-                fontFamily: "GeistMono, monospace",
-                fontSize: "clamp(16px, 3vw, 22px)",
-                lineHeight: "1.4",
-                textAlign: "center",
-              }}
-            >
-              From startups to enterprises — automating workflows without code.
-            </p>
-          </div>
-
-          <div className="space-y-8 overflow-hidden">
-            <div className="relative">
-              <div className="flex animate-scroll-left whitespace-nowrap">
-                <div className="flex">
-                  {[
-                    "San Francisco",
-                    "New York",
-                    "London",
-                    "Berlin",
-                    "Tokyo",
-                    "Sydney",
-                    "Toronto",
-                    "Amsterdam",
-                    "Barcelona",
-                    "Singapore",
-                    "Mumbai",
-                    "São Paulo",
-                    "Stockholm",
-                    "Tel Aviv",
-                    "Austin",
-                    "Seattle",
-                    "Dublin",
-                    "Copenhagen",
-                    "Zurich",
-                    "Melbourne",
-                  ]
-                    .concat([
-                      "San Francisco",
-                      "New York",
-                      "London",
-                      "Berlin",
-                      "Tokyo",
-                      "Sydney",
-                      "Toronto",
-                      "Amsterdam",
-                      "Barcelona",
-                      "Singapore",
-                      "Mumbai",
-                      "São Paulo",
-                      "Stockholm",
-                      "Tel Aviv",
-                      "Austin",
-                      "Seattle",
-                      "Dublin",
-                      "Copenhagen",
-                      "Zurich",
-                      "Melbourne",
-                    ])
-                    .map((city, index) => (
-                      <span
-                        key={index}
-                        style={{
-                          fontFamily: 'GeistSans, "GeistSans Fallback", sans-serif',
-                          fontSize: "20px",
-                          lineHeight: "28px",
-                          fontWeight: "700",
-                          letterSpacing: "normal",
-                          color: "#999999",
-                          whiteSpace: "nowrap",
-                          padding: "0 1rem",
-                        }}
-                      >
-                        {city}
-                      </span>
-                    ))}
-                </div>
-              </div>
-            </div>
-
-            <div className="relative">
-              <div className="flex animate-scroll-right whitespace-nowrap">
-                <div className="flex">
-                  {[
-                    "Vancouver",
-                    "Paris",
-                    "Los Angeles",
-                    "Boston",
-                    "Chicago",
-                    "Miami",
-                    "Denver",
-                    "Portland",
-                    "Montreal",
-                    "Edinburgh",
-                    "Prague",
-                    "Vienna",
-                    "Helsinki",
-                    "Oslo",
-                    "Lisbon",
-                    "Madrid",
-                    "Rome",
-                    "Brussels",
-                    "Warsaw",
-                    "Budapest",
-                  ]
-                    .concat([
-                      "Vancouver",
-                      "Paris",
-                      "Los Angeles",
-                      "Boston",
-                      "Chicago",
-                      "Miami",
-                      "Denver",
-                      "Portland",
-                      "Montreal",
-                      "Edinburgh",
-                      "Prague",
-                      "Vienna",
-                      "Helsinki",
-                      "Oslo",
-                      "Lisbon",
-                      "Madrid",
-                      "Rome",
-                      "Brussels",
-                      "Warsaw",
-                      "Budapest",
-                    ])
-                    .map((city, index) => (
-                      <span
-                        key={index}
-                        style={{
-                          fontFamily: 'GeistSans, "GeistSans Fallback", sans-serif',
-                          fontSize: "20px",
-                          lineHeight: "28px",
-                          fontWeight: "700",
-                          letterSpacing: "normal",
-                          color: "#999999",
-                          whiteSpace: "nowrap",
-                          padding: "0 1rem",
-                        }}
-                      >
-                        {city}
-                      </span>
-                    ))}
-                </div>
-              </div>
+              <CompanyName name="Google Calendar" />
+              <CompanyName name="Outlook" />
+              <CompanyName name="Airtable" />
             </div>
           </div>
         </section>
@@ -401,7 +238,7 @@ export default function Home() {
         <SaveReviewRestoreSection onOpenInstall={openInstallModal} />
         <AgenticAISearchSection onOpenInstall={openInstallModal} />
         <WhyNotGitSection onOpenInstall={openInstallModal} />
-        <VibeCodingTweetsSection onOpenInstall={openInstallModal} />
+        <VibeCodingTweetsSection />
         <TestimonialsSection />
         <FAQSection onOpenInstall={openInstallModal} />
         <Footer />
