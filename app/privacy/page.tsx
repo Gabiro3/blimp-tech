@@ -38,9 +38,9 @@ export default function PrivacyPolicy() {
               lineHeight: "1.5",
             }}
           >
-            Effective Date: 23/10/2025
+            Effective Date: 4/11/2025
             <br />
-            Last Updated: 23/10/2025
+            Last Updated: 4/11/2025
           </p>
         </div>
 
