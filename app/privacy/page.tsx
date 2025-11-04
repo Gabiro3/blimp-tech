@@ -99,7 +99,38 @@ export default function PrivacyPolicy() {
             <p>We never sell your data or use it to train third-party AI models without your explicit consent.</p>
           </Section>
 
-          <Section title="4. Data Storage and Security">
+          <Section title="4. Data Sharing and Disclosure">
+            <p>
+              <strong>We do not share, transfer, or disclose your Google user data to any third parties.</strong> All
+              data accessed from your Google account (including Gmail, Google Drive, Google Calendar, Google Sheets, and
+              other Google services) is:
+            </p>
+            <ul>
+              <li>Kept strictly confidential and secure within Blimp's infrastructure.</li>
+              <li>Used exclusively to power your automation workflows within our AI productivity suite.</li>
+              <li>Never sold, rented, or shared with advertisers, data brokers, or any external parties.</li>
+              <li>Never used to train third-party AI models or for purposes outside of your authorized automations.</li>
+            </ul>
+            <p>
+              The only exception is when you explicitly configure a workflow to send data to another service (e.g.,
+              forwarding a Gmail message to Slack). In such cases, the data transfer happens solely as part of your
+              defined automation and is under your direct control.
+            </p>
+            <p>
+              Blimp's use of information received from Google APIs adheres to the{" "}
+              <a
+                href="https://developers.google.com/terms/api-services-user-data-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:text-cyan-300 underline"
+              >
+                Google API Services User Data Policy
+              </a>
+              , including the Limited Use requirements.
+            </p>
+          </Section>
+
+          <Section title="5. Data Storage and Security">
             <ul>
               <li>All credentials and tokens are securely encrypted both at rest and in transit.</li>
               <li>
@@ -117,14 +148,14 @@ export default function PrivacyPolicy() {
             </ul>
           </Section>
 
-          <Section title="5. Data Retention">
+          <Section title="6. Data Retention">
             <p>
               We retain your account and workflow data only for as long as necessary to provide the service. When you
               delete your Blimp account, all user data, tokens, and workflows are permanently erased from our system.
             </p>
           </Section>
 
-          <Section title="6. Third-Party Services">
+          <Section title="7. Third-Party Services">
             <p>
               Blimp relies on APIs from third-party providers (e.g., Google, Slack, Notion). Each service's data use is
               also governed by its respective privacy policy:
@@ -138,7 +169,7 @@ export default function PrivacyPolicy() {
             </ul>
           </Section>
 
-          <Section title="7. User Controls and Data Deletion">
+          <Section title="8. User Controls and Data Deletion">
             <p>You are always in control of your data:</p>
             <ul>
               <li>Manage integrations: via Connected Accounts.</li>
@@ -148,21 +179,21 @@ export default function PrivacyPolicy() {
             <p>We will honor all deletion requests within a reasonable timeframe.</p>
           </Section>
 
-          <Section title="8. Children's Privacy">
+          <Section title="9. Children's Privacy">
             <p>
               Blimp is not directed to individuals under the age of 13 (or the minimum legal age in your jurisdiction).
               We do not knowingly collect personal data from children.
             </p>
           </Section>
 
-          <Section title="9. Updates to This Policy">
+          <Section title="10. Updates to This Policy">
             <p>
               We may update this Privacy Policy to reflect changes in our practices or legal requirements. The updated
               version will always be available on this page with a revised "Last Updated" date.
             </p>
           </Section>
 
-          <Section title="10. Contact Us">
+          <Section title="11. Contact Us">
             <p>If you have questions or concerns about this Privacy Policy, contact us at:</p>
             <p>
               <a href="mailto:support@getblimpy.app" className="text-cyan-400 hover:text-cyan-300 underline">
